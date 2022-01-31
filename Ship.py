@@ -107,7 +107,7 @@ class Board:
                     self.contour(ship, verb=True)
                     print("-" * 30)
                     print("Корабль потоплен")
-                    return False
+                    return True
                 else:
                     print("-" * 30)
                     print("Есть пробитие")
